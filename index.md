@@ -281,7 +281,6 @@ and our administrator may contact you if we need any extra information.</h4>
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-
 <h2 id="setup">Setup</h2>
 
 <p>
