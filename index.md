@@ -267,7 +267,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
-
+<p> </p>
 <hr/>
 
 {% comment %}
