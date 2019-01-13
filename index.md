@@ -302,7 +302,7 @@ and our administrator may contact you if we need any extra information.</h4>
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+</div> {% comment %} End of 'setup' section. {% endcomment %}
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
@@ -553,6 +553,6 @@ and our administrator may contact you if we need any extra information.</h4>
 
 
 
-</div> {% comment %} End of 'setup' section. {% endcomment %}
+
 
 
