@@ -464,14 +464,15 @@ and our administrator may contact you if we need any extra information.</h4>
   <p>
     SQL is a specialized programming language used with databases.  We
     use a simple database manager called
-    <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
+    <a href="https://www.sqlite.org/">SQLite</a> in our lessons.  We will use the <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a> program, which is available for all major platforms.
+
   </p>
 
   <div class="row">
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
       <p>
-        The <a href="https://www.sqlite.org/download.html">
+        Windows releases can be downloaded from <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases">
           {% if page.carpentry == "swc" %}
           Software Carpentry
           {% elsif page.carpentry == "dc" %}
@@ -480,28 +481,31 @@ and our administrator may contact you if we need any extra information.</h4>
           Library Carpentry
           {% endif %}
           Windows Installer
-	</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
+	</a>. Note - If for some reason the standard Windows release doesn't work for you (eg it gives an error), try a nightly build. Nightly builds for Windows and OSX can be downloaded from <a href="https://nightlies.sqlitebrowser.org/latest">Nightly builds</a>. They often fix bugs reported after the last release.
+        
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="sql-macosx">macOS</h4>
       <p>
-        SQLite comes pre-installed on macOS.
+        OSX releases can be downloaded from <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases"> {% if page.carpentry == "swc" %}
+          Software Carpentry
+          {% elsif page.carpentry == "dc" %}
+          Data Carpentry
+          {% elsif page.carpentry == "lc" %}
+          Library Carpentry
+          {% endif %}
+          MacOS Installer</a>. Or install via <a href="https://caskroom.github.io">Homebrew Cask</a>:<pre>brew cask install db-browser-for-sqlite</pre>
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="sql-linux">Linux</h4>
       <p>
-        SQLite comes pre-installed on Linux.
+        For Arch Linux users, a package is provided through pacman. For Fedora users, run <pre>sudo dnf install sqlitebrowser</pre>. For Debian users, run <pre>sudo apt-get update</pre>, then install the package using <pre>sudo apt-get install sqlitebrowser</pre>. For Ubuntu users, run first <pre>sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser</pre>, then <pre>sudo apt-get update</pre>, then run <pre>sudo apt-get install sqlitebrowser</pre>. 
       </p>
     </div>
   </div>
 
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
