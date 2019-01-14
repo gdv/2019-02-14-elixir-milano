@@ -554,6 +554,43 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+###########################################################################33
+<div id="spreadsheet"> {% comment %} Start of 'spreadsheet' section. {% endcomment %}
+  <h3>Spreadsheet</h3>
+  <p>
+    To interact with spreadsheets, we can use LibreOffice, Microsoft Excel, Gnumeric, OpenOffice.org, or other program. Commands may differ a bit between programs, but the general ideas for thinking about spreadsheets are the same. If you don’t have a spreadsheet program already, you can use LibreOffice. It’s a free, open source spreadsheet program.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="spreadsheet-windows">Windows</h4>
+      <p>  Download the Installer: </p>
+       <p>Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don’t need to make one. Your download should begin automatically.</p>
+    <p>
+      Once the installer is downloaded, double click on it and LibreOffice should install.</p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="spreadsheet-mac">Mac</h4>
+      <p>  Download the Installer: </p>
+     <p>Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. The version for Mac should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don’t need to make one. Your download should begin automatically.</p>
+    <p>
+      Once the installer is downloaded, double click on it and LibreOffice should install.</p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="spreadsheet-linux">Linux</h4>
+      <p>  Download the Installer: </p>
+     <p>Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don’t need to make one. Your download should begin automatically.</p>
+    <p>
+      Once the installer is downloaded, double click on it and LibreOffice should install.</p>
+    </div>
+  </div>
+</div> {% comment %} End of 'Spreadsheet' section. {% endcomment %}
+
+
+
+
+
+
 
 
 
