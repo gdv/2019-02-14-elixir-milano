@@ -554,7 +554,7 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-###########################################################################33
+
 <div id="spreadsheet"> {% comment %} Start of 'spreadsheet' section. {% endcomment %}
   <h3>Spreadsheet</h3>
   <p>
