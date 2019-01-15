@@ -501,7 +501,7 @@ and our administrator may contact you if we need any extra information.</h4>
     <div class="col-md-4">
       <h4 id="sql-linux">Linux</h4>
       <p>
-        For Arch Linux users, a package is provided through pacman. For Fedora users, run <pre>sudo dnf install sqlitebrowser</pre>. For Debian users, run <pre>sudo apt-get update</pre>, then install the package using <pre>sudo apt-get install sqlitebrowser</pre>. For Ubuntu users, run first <pre>sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser</pre>, then <pre>sudo apt-get update</pre>, then run <pre>sudo apt-get install sqlitebrowser</pre>. 
+        For Arch Linux users, a package is provided through pacman. For Fedora users, run <pre>sudo dnf install sqlitebrowser</pre>. For Debian and Ubuntu users, run <pre>sudo apt-get update</pre>, then install the package using <pre>sudo apt-get install sqlitebrowser</pre>. 
       </p>
     </div>
   </div>
